@@ -59,7 +59,7 @@ while reiniciar == 1:
         print("FIN DEL JUEGO: El dragón te comió")
 
     print(f"{nombre}: {puntaje} puntos")
-    reiniciar = int(input("Ingrese 1 para volver a jugar: "))
+    reiniciar = input("Ingrese 1 para volver a jugar: ")
     print()
 
 print("JUEGO FINALIZADO")
